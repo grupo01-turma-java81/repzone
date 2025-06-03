@@ -38,7 +38,7 @@ function Home() {
                   className="bg-[#23233a] p-2 rounded-md w-12 h-12 flex items-center justify-center"
                 >
                   <img
-                    src="https://media.discordapp.net/attachments/1342248054853468248/1378209113330159708/icons8-levantamento-de-peso-50.png?ex=683bc4c2&is=683a7342&hm=1d7c9922b3062449f5c3db1d7c3a8e4be656fb2ab72a4bf62ebb7c3fc4b9ec8f&=&format=webp&quality=lossless"
+                    src="https://cdn-icons-png.flaticon.com/128/7118/7118254.png"
                     alt="exercício"
                     className="w-8 h-8"
                   />
