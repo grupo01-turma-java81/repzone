@@ -1,54 +1,35 @@
-# React + TypeScript + Vite
+# Repzone 
+Projeto desenvolvido pela equipe de alunos do Generation Brasil no Projeto Integrador voltado a Frontend.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🏋 Descrição do Projeto
 
-Currently, two official plugins are available:
+Este aplicativo fitness tem como objetivo auxiliar os usuários a estruturarem suas rotinas de exercícios de maneira eficaz, promovendo uma vida mais saudável e ativa.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔑 Objetivo
+Organização Semanal de Treinos: Permite aos usuários planejar e visualizar seus treinos ao longo da semana, adaptando-se às suas necessidades e objetivos pessoais.
 
-## Expanding the ESLint configuration
+Interface Intuitiva e Agradável: Desenvolvida com foco na usabilidade, a interface proporciona uma navegação fluida e agradável, facilitando o acesso às funcionalidades do aplicativo.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Maximização dos Resultados Físicos: Através de recursos como acompanhamento de progresso e sugestões de exercícios, o aplicativo visa potencializar os resultados físicos dos usuários.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🕹 ️Resolução de Problema
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+O projeto visa resolver problemas como:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+* Organizar exercícios e treinos.
+* Organização semanal dos treinos.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 👤Integrantes da Equipe
+
+| Nome             | Função               | GitHub                           |
+|------------------|----------------------|----------------------------------|
+| Vinícius Cristhian     | Tester | [@ViniCristhian](https://github.com/ViniCristhian) |
+| Iago Willian   | Developer        | [@IagoWiliian](https://github.com/IagoWiliian) |
+| Giulio Gabriel    | Developer        | [@GiulioArantes](https://github.com/GiulioArantes) |
+| Yasmim Ruescas   | Developer        | [@Yasmimruescas](https://github.com/Yasmimruescas) |
+| Vitoria Camilly  | Developer  | [@vitoriacamilly](https://github.com/Vitoriacmlly) |
+| Bruno Daniel   | Product Owner       | [@BrunoDaniel13](https://github.com/BrunoDaniel13) |
+
+## 💾Observações
+
+Este projeto é voltado para fins educacionais e representa uma solução inicial e pode ter melhorias no futuro.
